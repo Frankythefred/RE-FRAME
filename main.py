@@ -2,27 +2,23 @@ import streamlit as st
 import random
 from datetime import datetime
 
-# --------------------------------------------------
-# PAGE CONFIGURATION (must be first Streamlit call)
-# --------------------------------------------------
+#Header call
 st.set_page_config(
     page_title="Timetable Generator",
     page_icon="📅",
     layout="wide"
 )
 
-# --------------------------------------------------
-# THEME DETECTION & STYLING
-# --------------------------------------------------
+#colour themes
 theme_base = st.get_option("theme.base")
 
 if theme_base == "dark":
-    bg_card = "#1e1e1e"
+    bg_card = "##ff00ea"
     bg_soft = "#262730"
     border_color = "#3a3a3a"
     text_muted = "#b0b0b0"
 else:
-    bg_card = "#ffffff"
+    bg_card = "##ffcc00"
     bg_soft = "#f6f7f9"
     border_color = "#e0e0e0"
     text_muted = "#555555"
