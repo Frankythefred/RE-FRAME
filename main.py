@@ -14,8 +14,8 @@ theme_base = st.get_option("theme.base")
 
 if theme_base == "dark":
     bg_card = "##ff00ea"
-    bg_soft = "#262730"
-    border_color = "#3a3a3a"
+    bg_soft = "##ff00ea"
+    border_color = "##ff00ea"
     text_muted = "#b0b0b0"
 else:
     bg_card = "##ffcc00"
